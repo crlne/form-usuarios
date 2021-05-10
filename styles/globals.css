@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+:root {
+  --white: #FFF; 
+  --gray-50: #EEEEF2;
+  --gray-200: #AFB2B1;
+  --gray-500: #808080;
+  --gray-900: #181B23;
+  --cyan-00: #0BC5EA;
+
+}
+
+@media (max-width: 1080px) {
+  html {
+      font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+      font-size: 87.5%;
+  }
+}
+
+body, input, textarea, h1 {
+  font: 500 1rem Roboto, sans-serif;
+}
+
+body {
+  padding-top: 15vh;
+  background: var(--gray-900);
+}
+
+input, label {
+  display: block;
+  width: 100%;
+  outline: none;
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--cyan-00);
+}
+
+
+

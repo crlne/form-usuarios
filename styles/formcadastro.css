@@ -1,0 +1,78 @@
+.container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--white);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+    color: var(--gray-900);
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.label-form {
+    color: var(--gray-500);
+}
+
+.estado {
+    margin-bottom: 5px;
+}
+
+.boxlarge {
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.boxsm {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 2.5%;
+}
+
+label {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+input {
+    border-bottom: 2px solid var(--cyan-00);
+    padding: 10px;
+    font-size: 0.9rem;  
+}
+
+input:focus {
+    border-color: var(--gray-500);
+}
+input[type="submit"] {
+    background-color: var(--cyan-00);
+    color: var(--white);
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+.cadastar {
+    margin-top: 12px;
+}
+.agreement {
+    margin-right: 5px;
+}
+
+.agreement, .agreement-label {
+    display: inline-block;
+    width: auto;
+}
+
